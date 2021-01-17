@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="add department:"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+    <EditText
+        android:id="@+id/etdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="department name" />
+    <EditText
+        android:id="@+id/ettype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="department type" />
+    <EditText
+        android:id="@+id/etnumcells"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number of cells" />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:layout_width="100dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="save" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="edit prison:"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+    <EditText
+        android:id="@+id/etpname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prison name" />
+    <EditText
+        android:id="@+id/etaddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prison address" />
+
+    <Button
+        android:id="@+id/btndepartments1"
+        android:layout_width="250dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="edit departments" />
+
+    <Button
+        android:id="@+id/btnSave4"
+        android:layout_width="100dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="save" />
+
+</LinearLayout>

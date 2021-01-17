@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+
+
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add warden"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="User name"
+        android:gravity="center"
+        android:id="@+id/usernamewarden"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:id="@+id/passwordwarden"
+        />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Prison name"
+        android:gravity="center"
+        android:id="@+id/Nameofprison"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Department name"
+        android:gravity="center"
+        android:id="@+id/nameofdepartment"
+        />
+
+
+
+
+
+
+
+
+    <Button
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="add"
+
+        android:textSize="15dp"
+
+        android:layout_gravity="center"
+
+        android:id="@+id/addthewarden"
+
+        />
+    <Button
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Edit warden's schedule"
+
+        android:textSize="15dp"
+
+        android:layout_gravity="center"
+
+        android:id="@+id/editschedulewarden"
+
+        />
+
+
+
+
+</LinearLayout>

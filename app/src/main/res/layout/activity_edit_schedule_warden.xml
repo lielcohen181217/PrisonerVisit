@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+
+
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add warden's schedule"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Day"
+        android:gravity="center"
+        android:id="@+id/daywarden"
+        />
+
+    <EditText
+        android:id="@+id/starthourWarden"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Start hour"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="End hour"
+        android:gravity="center"
+        android:inputType="number"
+
+        android:id="@+id/endhourWarden"
+        />
+    <Button
+
+        android:id="@+id/addTheschedulesWArden"
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="add"
+
+        android:textSize="15dp"
+
+        />
+    <Button
+
+        android:id="@+id/savescheduleswarden"
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="save"
+
+        android:textSize="15dp"
+
+        />
+
+
+
+
+</LinearLayout>

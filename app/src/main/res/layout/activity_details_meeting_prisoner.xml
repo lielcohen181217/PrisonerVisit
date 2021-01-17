@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:text="The meeting"
+
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/beginning"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ending"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/occupied"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Numprisoner"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Numvisitor"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

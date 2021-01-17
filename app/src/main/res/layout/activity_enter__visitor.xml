@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+
+
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Set up a meeting"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="You'r id"
+        android:gravity="center"
+        android:inputType="number"
+        android:id="@+id/idvisitor"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Prisoner's id"
+        android:gravity="center"
+        android:id="@+id/idprisoner"
+        />
+
+
+    <Button
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="set up"
+
+        android:textSize="15dp"
+
+        android:layout_gravity="center"
+
+        android:id="@+id/setup"
+
+        />
+
+
+
+
+</LinearLayout>

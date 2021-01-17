@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liel.prisonervisit">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_Employee" />
+        <activity android:name=".Enter_Visitor" />
+        <activity android:name=".Menu_maneger" />
+        <activity android:name=".ScreenPrisoner" />
+        <activity android:name=".MenuPrisoners" />
+        <activity android:name=".AddPrisoner" />
+        <activity android:name=".AddScheduleMeetin" />
+        <activity android:name=".AddVisitorIdlist" />
+        <activity android:name=".MenuWarden" />
+        <activity android:name=".AddWarden" />
+        <activity android:name=".EditScheduleWarden" />
+        <activity android:name=".EditPrisonerActivity" />
+        <activity android:name=".ScreenWarder" />
+        <activity android:name=".ScreenMeetings" />
+        <activity android:name=".ViewDay" />
+        <activity android:name=".ViewDayHourWarden" />
+        <activity android:name=".Screen_wardens" />
+        <activity android:name=".EditWardenActivity" />
+        <activity android:name=".Editprisonermeeting" />
+        <activity android:name=".ScreenPrisonersmeetings" />
+        <activity android:name=".DetailsMeetingPrisoner" />
+        <activity android:name=".EditVisitorList" />
+        <activity android:name=".ScreenListofvisitors" />
+        <activity android:name=".prisonlist_screen" />
+        <activity android:name=".addprison_screen" />
+        <activity android:name=".adddepartment_screen" />
+        <activity android:name=".EditPrison_screen" />
+        <activity android:name=".EditDepartments_screen" />
+        <activity android:name=".EditDepartment_screen" />
+        <activity android:name=".departmentlist_screen" />
+        <activity android:name=".EditListDaysWardens" />
+        <activity android:name=".ListScheduleWarden" />
+        <activity android:name=".ViewDetailsWorkDay"></activity>
+    </application>
+
+</manifest>

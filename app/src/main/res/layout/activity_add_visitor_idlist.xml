@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+
+
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add VisitorId list"
+
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:id="@+id/txtdisplay"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/visitorid"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="VisitorId"
+        android:inputType="number" />
+
+
+    <Button
+
+        android:id="@+id/addVisitor"
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="add"
+
+        android:textSize="15dp"
+
+        />
+
+    <Button
+
+        android:id="@+id/savesVisitors"
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="Save"
+
+        android:textSize="15dp"
+
+        />
+
+
+
+</LinearLayout>

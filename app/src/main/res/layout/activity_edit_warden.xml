@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditIdWarden"
+        android:hint="Warden Id"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Editpassword"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Editworkprison"
+        android:hint="Prison"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Editworkdepartment"
+        android:hint="Department"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/savethewarden"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="save"
+        />
+     <Button
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/editlistdaywarden"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:text="Edit warden's schedule"
+         />
+
+
+
+
+
+
+</LinearLayout>
